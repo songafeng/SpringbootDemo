@@ -12,6 +12,9 @@
     <module>Springboot_Mybatis</module>
     <module>Springboot_MybatisDruid</module>
     <module>Springboot_Nacos</module>
+    <module>Springboot_Redis</module>
+    <module>Springboot_Guice2</module>
+    <module>Springboot_Netty</module>
   </modules>
 
   <name>SpringbootDemo</name>
