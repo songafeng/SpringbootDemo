@@ -15,6 +15,7 @@
     <module>Springboot_Redis</module>
     <module>Springboot_Guice2</module>
     <module>Springboot_Netty</module>
+    <module>Springboot_Lombok</module>
   </modules>
 
   <name>SpringbootDemo</name>
