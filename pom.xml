@@ -16,6 +16,9 @@
     <module>Springboot_Guice2</module>
     <module>Springboot_Netty</module>
     <module>Springboot_Lombok</module>
+    <module>Springboot_log4j</module>
+    <module>Springboot_Log4j2</module>
+    <module>Springboot_Logback</module>
   </modules>
 
   <name>SpringbootDemo</name>
