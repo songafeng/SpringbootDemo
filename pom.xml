@@ -19,6 +19,8 @@
     <module>Springboot_log4j</module>
     <module>Springboot_Log4j2</module>
     <module>Springboot_Logback</module>
+    <module>Springboot_test</module>
+    <module>Springboot_Configuration</module>
   </modules>
 
   <name>SpringbootDemo</name>
