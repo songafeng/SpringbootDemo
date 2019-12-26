@@ -21,6 +21,7 @@
     <module>Springboot_Logback</module>
     <module>Springboot_test</module>
     <module>Springboot_Configuration</module>
+    <module>Springboot_Swagger2</module>
   </modules>
 
   <name>SpringbootDemo</name>
