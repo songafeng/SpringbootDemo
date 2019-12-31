@@ -23,6 +23,7 @@
     <module>Springboot_Configuration</module>
     <module>Springboot_Swagger2</module>
     <module>SpringCloud_Nacos_Config</module>
+    <module>Springboot_Aop</module>
   </modules>
 
   <name>SpringbootDemo</name>
