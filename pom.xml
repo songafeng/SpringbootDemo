@@ -25,6 +25,7 @@
     <module>SpringCloud_Nacos_Config</module>
     <module>Springboot_Aop</module>
     <module>Springboot_DynamicDataSource</module>
+    <module>Springboot_Json</module>
   </modules>
 
   <name>SpringbootDemo</name>
