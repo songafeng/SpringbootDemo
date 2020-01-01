@@ -1,0 +1,40 @@
+#数据库learning
+CREATE TABLE `a`  (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `age` int(11) NOT NULL,
+  `gender` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `psw` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `seq` int(11) NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 8 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+
+INSERT INTO `a` VALUES (1, 'zsan', 30, 'f', '123456', 3);
+INSERT INTO `a` VALUES (2, 'lisi', 31, 'f', '123456', 5);
+INSERT INTO `a` VALUES (3, 'wangwu', 32, 'm', '123456', 1);
+INSERT INTO `a` VALUES (4, 'zhaoliu', 33, 'm', '123456', 4);
+INSERT INTO `a` VALUES (5, 'baiqi', 34, 'm', '123456', 6);
+INSERT INTO `a` VALUES (6, 'hongba', 35, 'f', '123456', 2);
+INSERT INTO `a` VALUES (7, 'zhuyl', 30, 'f', '123456', 7);
+
+#数据库slave
+CREATE TABLE `b`  (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `age` int(11) NOT NULL,
+  `gender` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `psw` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `seq` int(11) NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 8 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+
+INSERT INTO `b` VALUES (1, 'szsan', 30, 'f', '123456', 3);
+INSERT INTO `b` VALUES (2, 'slisi', 31, 'f', '123456', 5);
+INSERT INTO `b` VALUES (3, 'swangwu', 32, 'm', '123456', 1);
+INSERT INTO `b` VALUES (4, 'szhaoliu', 33, 'm', '123456', 4);
+INSERT INTO `b` VALUES (5, 'sbaiqi', 34, 'm', '123456', 6);
+INSERT INTO `b` VALUES (6, 'shongba', 35, 'f', '123456', 2);
+INSERT INTO `b` VALUES (7, 'szhuyl', 30, 'f', '123456', 7);
+
