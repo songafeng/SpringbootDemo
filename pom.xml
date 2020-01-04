@@ -28,6 +28,7 @@
     <module>Springboot_Json</module>
     <module>Springboot_MybatisExample</module>
     <module>Springboot_ListenerFilterInterceptor</module>
+    <module>Springboot_ControllerAdvice</module>
   </modules>
 
   <name>SpringbootDemo</name>
