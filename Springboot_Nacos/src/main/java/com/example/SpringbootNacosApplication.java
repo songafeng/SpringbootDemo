@@ -5,8 +5,8 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@NacosPropertySource(dataId = "example", autoRefreshed = true)
-@MapperScan("com.example.mapper") //扫描的mapper
+@NacosPropertySource(dataId = "com.example", autoRefreshed = true)
+@MapperScan("com.com.example.mapper") //扫描的mapper
 @SpringBootApplication
 public class SpringbootNacosApplication {
 

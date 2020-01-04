@@ -3,3 +3,6 @@ server:
 logging:
   level:
     root: info
+
+application:
+  message: Hello World

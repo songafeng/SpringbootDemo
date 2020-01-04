@@ -1,4 +1,4 @@
-package example.pojo;
+package com.example.pojo;
 
 import com.alibaba.fastjson.annotation.JSONField;
 

@@ -28,7 +28,7 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
                 .apiInfo(apiInfo())
                 .select()
                 //为当前包路径
-                .apis(RequestHandlerSelectors.basePackage("com.example"))
+                .apis(RequestHandlerSelectors.basePackage("com.com.example"))
                 // 路径使用any风格
                 .paths(PathSelectors.any())
                 .build();

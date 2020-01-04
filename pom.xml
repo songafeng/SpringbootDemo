@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example</groupId>
+  <groupId>com.com.example</groupId>
   <artifactId>SpringbootDemo</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
@@ -26,11 +26,13 @@
     <module>Springboot_Aop</module>
     <module>Springboot_DynamicDataSource</module>
     <module>Springboot_Json</module>
+    <module>Springboot_MybatisExample</module>
+    <module>Springboot_ListenerFilterInterceptor</module>
   </modules>
 
   <name>SpringbootDemo</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>http://www.com.example.com</url>
 
   <properties>
     <spring-boot.version>2.0.3.RELEASE</spring-boot.version>

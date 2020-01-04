@@ -1,7 +1,7 @@
-package example.controller;
+package com.example.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import example.pojo.Person;
+import com.example.pojo.Person;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

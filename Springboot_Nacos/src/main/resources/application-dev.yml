@@ -10,13 +10,13 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml
-  type-aliases-package: com.example.entity
+  type-aliases-package: com.com.example.entity
 
 #showSql
 logging:
   level:
     com:
-      example:
+      com.example:
         mapper : debug
 
 #nacos
