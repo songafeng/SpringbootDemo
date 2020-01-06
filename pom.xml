@@ -29,6 +29,7 @@
     <module>Springboot_MybatisExample</module>
     <module>Springboot_ListenerFilterInterceptor</module>
     <module>Springboot_ControllerAdvice</module>
+    <module>SpringCloud_Nacos_Discovery</module>
   </modules>
 
   <name>SpringbootDemo</name>

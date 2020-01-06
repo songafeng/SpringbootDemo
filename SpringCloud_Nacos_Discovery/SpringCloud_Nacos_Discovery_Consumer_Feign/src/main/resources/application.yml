@@ -1,0 +1,19 @@
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.16.248.188:8848 # nancos地址
+  application:
+    name: service-consumer
+
+server:
+  # 服务端口
+  port: 8080
+
+management:
+  # 端点检查（健康检查）
+  endpoints:
+    web:
+      exposure:
+        include: "*"
