@@ -26,7 +26,7 @@ public class DynamicDataSourceAspect {
     /**
      * 在Mapper层添加注解，实现切换数据源
      */
-//    @Pointcut("execution(* com.com.example.module..mapper.*.*(..))")
+//    @Pointcut("execution(* com.example.module..mapper.*.*(..))")
     @Pointcut("@annotation(com.example.util.DS)")
     public void dataSourcePointCut(){
     }

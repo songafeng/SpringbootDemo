@@ -65,7 +65,7 @@ public class LogAspect {
      *
      * @return
      */
-/*    @Around(value = "execution(* com.com.example.controller.*.*(..))")
+/*    @Around(value = "execution(* com.example.controller.*.*(..))")
     public Object aroundMethod(ProceedingJoinPoint jp) {
         String methodName = jp.getSignature().getName();
         Object result = null;

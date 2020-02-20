@@ -14,7 +14,7 @@
 [2019-12-06 14:34:14] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 245 configure - Mapping filter: 'requestContextFilter' to: [/*]
 [2019-12-06 14:34:14] INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 373 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 [2019-12-06 14:34:14] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 574 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56cdfb3b: startup date [Fri Dec 06 14:34:12 CST 2019]; root of context hierarchy
-[2019-12-06 14:34:15] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/hello]}" onto public java.lang.String com.com.example.controller.UserController.Hello()
+[2019-12-06 14:34:15] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/hello]}" onto public java.lang.String com.example.controller.UserController.Hello()
 [2019-12-06 14:34:15] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 [2019-12-06 14:34:15] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 [2019-12-06 14:34:15] INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 373 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -25,7 +25,7 @@
 [2019-12-06 14:34:32] INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
 [2019-12-06 14:34:32] INFO  org.springframework.web.servlet.FrameworkServlet 494 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
 [2019-12-06 14:34:32] INFO  org.springframework.web.servlet.FrameworkServlet 509 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
-[2019-12-06 14:34:32] INFO  com.com.example.controller.UserController 19 Hello - info message
+[2019-12-06 14:34:32] INFO  com.example.controller.UserController 19 Hello - info message
 [2019-12-06 14:35:52] INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting SpringbootLog4j2Application on A1789 with PID 487576 (E:\mygitcode\SpringbootDemo\Springboot_Log4j2\target\classes started by jdd in E:\mygitcode\SpringbootDemo)
 [2019-12-06 14:35:52] INFO  org.springframework.boot.SpringApplication 659 logStartupProfileInfo - No active profile set, falling back to default profiles: default
 [2019-12-06 14:35:52] INFO  org.springframework.context.support.AbstractApplicationContext 590 prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6f63b475: startup date [Fri Dec 06 14:35:52 CST 2019]; root of context hierarchy
@@ -42,7 +42,7 @@
 [2019-12-06 14:35:54] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 245 configure - Mapping filter: 'requestContextFilter' to: [/*]
 [2019-12-06 14:35:54] INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 373 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 [2019-12-06 14:35:54] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 574 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6f63b475: startup date [Fri Dec 06 14:35:52 CST 2019]; root of context hierarchy
-[2019-12-06 14:35:54] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/hello]}" onto public java.lang.String com.com.example.controller.UserController.Hello()
+[2019-12-06 14:35:54] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/hello]}" onto public java.lang.String com.example.controller.UserController.Hello()
 [2019-12-06 14:35:54] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 [2019-12-06 14:35:54] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 [2019-12-06 14:35:54] INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 373 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -53,7 +53,7 @@
 [2019-12-06 14:35:58] INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
 [2019-12-06 14:35:58] INFO  org.springframework.web.servlet.FrameworkServlet 494 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
 [2019-12-06 14:35:58] INFO  org.springframework.web.servlet.FrameworkServlet 509 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
-[2019-12-06 14:35:58] INFO  com.com.example.controller.UserController 19 Hello - info message
+[2019-12-06 14:35:58] INFO  com.example.controller.UserController 19 Hello - info message
 [2019-12-06 14:42:05] INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting SpringbootLog4j2Application on A1789 with PID 496248 (E:\mygitcode\SpringbootDemo\Springboot_Log4j2\target\classes started by jdd in E:\mygitcode\SpringbootDemo)
 [2019-12-06 14:42:05] INFO  org.springframework.boot.SpringApplication 659 logStartupProfileInfo - No active profile set, falling back to default profiles: default
 [2019-12-06 14:42:05] INFO  org.springframework.context.support.AbstractApplicationContext 590 prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7205765b: startup date [Fri Dec 06 14:42:05 CST 2019]; root of context hierarchy
@@ -70,7 +70,7 @@
 [2019-12-06 14:42:07] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 245 configure - Mapping filter: 'requestContextFilter' to: [/*]
 [2019-12-06 14:42:07] INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 373 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 [2019-12-06 14:42:07] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 574 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7205765b: startup date [Fri Dec 06 14:42:05 CST 2019]; root of context hierarchy
-[2019-12-06 14:42:07] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/hello]}" onto public java.lang.String com.com.example.controller.UserController.Hello()
+[2019-12-06 14:42:07] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/hello]}" onto public java.lang.String com.example.controller.UserController.Hello()
 [2019-12-06 14:42:07] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 [2019-12-06 14:42:07] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 [2019-12-06 14:42:07] INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 373 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -81,7 +81,7 @@
 [2019-12-06 14:42:11] INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
 [2019-12-06 14:42:11] INFO  org.springframework.web.servlet.FrameworkServlet 494 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
 [2019-12-06 14:42:11] INFO  org.springframework.web.servlet.FrameworkServlet 509 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
-[2019-12-06 14:42:11] INFO  com.com.example.controller.UserController 19 Hello - info message
+[2019-12-06 14:42:11] INFO  com.example.controller.UserController 19 Hello - info message
 [2019-12-06 14:43:14] INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting SpringbootLog4j2Application on A1789 with PID 494132 (E:\mygitcode\SpringbootDemo\Springboot_Log4j2\target\classes started by jdd in E:\mygitcode\SpringbootDemo)
 [2019-12-06 14:43:14] INFO  org.springframework.boot.SpringApplication 659 logStartupProfileInfo - No active profile set, falling back to default profiles: default
 [2019-12-06 14:43:15] INFO  org.springframework.context.support.AbstractApplicationContext 590 prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@33990a0c: startup date [Fri Dec 06 14:43:15 CST 2019]; root of context hierarchy
@@ -98,7 +98,7 @@
 [2019-12-06 14:43:17] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 245 configure - Mapping filter: 'requestContextFilter' to: [/*]
 [2019-12-06 14:43:17] INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 373 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 [2019-12-06 14:43:17] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 574 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@33990a0c: startup date [Fri Dec 06 14:43:15 CST 2019]; root of context hierarchy
-[2019-12-06 14:43:17] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/hello]}" onto public java.lang.String com.com.example.controller.UserController.Hello()
+[2019-12-06 14:43:17] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/hello]}" onto public java.lang.String com.example.controller.UserController.Hello()
 [2019-12-06 14:43:17] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 [2019-12-06 14:43:17] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 [2019-12-06 14:43:17] INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 373 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -109,7 +109,7 @@
 [2019-12-06 14:43:23] INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
 [2019-12-06 14:43:23] INFO  org.springframework.web.servlet.FrameworkServlet 494 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
 [2019-12-06 14:43:23] INFO  org.springframework.web.servlet.FrameworkServlet 509 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
-[2019-12-06 14:43:23] INFO  com.com.example.controller.UserController 19 Hello - info message
+[2019-12-06 14:43:23] INFO  com.example.controller.UserController 19 Hello - info message
 [2019-12-06 14:48:43] INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting SpringbootLog4j2Application on A1789 with PID 491028 (E:\mygitcode\SpringbootDemo\Springboot_Log4j2\target\classes started by jdd in E:\mygitcode\SpringbootDemo)
 [2019-12-06 14:48:43] INFO  org.springframework.boot.SpringApplication 659 logStartupProfileInfo - No active profile set, falling back to default profiles: default
 [2019-12-06 14:48:43] INFO  org.springframework.context.support.AbstractApplicationContext 590 prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15aab8c6: startup date [Fri Dec 06 14:48:43 CST 2019]; root of context hierarchy
@@ -126,7 +126,7 @@
 [2019-12-06 14:48:45] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 245 configure - Mapping filter: 'requestContextFilter' to: [/*]
 [2019-12-06 14:48:45] INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 373 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 [2019-12-06 14:48:45] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 574 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15aab8c6: startup date [Fri Dec 06 14:48:43 CST 2019]; root of context hierarchy
-[2019-12-06 14:48:45] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/hello]}" onto public java.lang.String com.com.example.controller.UserController.Hello()
+[2019-12-06 14:48:45] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/hello]}" onto public java.lang.String com.example.controller.UserController.Hello()
 [2019-12-06 14:48:45] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 [2019-12-06 14:48:45] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 [2019-12-06 14:48:45] INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 373 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -137,7 +137,7 @@
 [2019-12-06 14:48:48] INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
 [2019-12-06 14:48:48] INFO  org.springframework.web.servlet.FrameworkServlet 494 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
 [2019-12-06 14:48:48] INFO  org.springframework.web.servlet.FrameworkServlet 509 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
-[2019-12-06 14:48:49] INFO  com.com.example.controller.UserController 19 Hello - info message
+[2019-12-06 14:48:49] INFO  com.example.controller.UserController 19 Hello - info message
 [2019-12-06 15:09:50] INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting SpringbootLog4j2Application on A1789 with PID 493012 (E:\mygitcode\SpringbootDemo\Springboot_Log4j2\target\classes started by jdd in E:\mygitcode\SpringbootDemo)
 [2019-12-06 15:09:50] INFO  org.springframework.boot.SpringApplication 659 logStartupProfileInfo - No active profile set, falling back to default profiles: default
 [2019-12-06 15:09:50] INFO  org.springframework.context.support.AbstractApplicationContext 590 prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2b48a640: startup date [Fri Dec 06 15:09:50 CST 2019]; root of context hierarchy
@@ -154,7 +154,7 @@
 [2019-12-06 15:09:52] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 245 configure - Mapping filter: 'requestContextFilter' to: [/*]
 [2019-12-06 15:09:52] INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 373 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 [2019-12-06 15:09:52] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 574 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2b48a640: startup date [Fri Dec 06 15:09:50 CST 2019]; root of context hierarchy
-[2019-12-06 15:09:52] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/hello]}" onto public java.lang.String com.com.example.controller.UserController.Hello()
+[2019-12-06 15:09:52] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/hello]}" onto public java.lang.String com.example.controller.UserController.Hello()
 [2019-12-06 15:09:52] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 [2019-12-06 15:09:52] INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 547 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 [2019-12-06 15:09:53] INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 373 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -165,5 +165,5 @@
 [2019-12-06 15:10:10] INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
 [2019-12-06 15:10:10] INFO  org.springframework.web.servlet.FrameworkServlet 494 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
 [2019-12-06 15:10:10] INFO  org.springframework.web.servlet.FrameworkServlet 509 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
-[2019-12-06 15:10:10] INFO  com.com.example.controller.UserController 19 Hello - info message
-[2019-12-06 15:10:13] INFO  com.com.example.controller.UserController 19 Hello - info message
+[2019-12-06 15:10:10] INFO  com.example.controller.UserController 19 Hello - info message
+[2019-12-06 15:10:13] INFO  com.example.controller.UserController 19 Hello - info message
