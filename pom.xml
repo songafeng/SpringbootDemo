@@ -32,6 +32,8 @@
     <module>SpringCloud_Nacos_Discovery</module>
       <module>Springboot_Jwt</module>
     <module>Springboot_PageHelper</module>
+      <module>Springboot_Hutool</module>
+    <module>Springboot_Jdd_Log</module>
   </modules>
 
   <name>SpringbootDemo</name>

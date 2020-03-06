@@ -36,6 +36,8 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
 //                .securitySchemes(security())
 //                // 接口文档的基本信息
 //                .apiInfo(apiInfo());
+
+        //第二种方法
 //        return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class)).build();
     }
 
