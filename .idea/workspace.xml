@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f350e9b9-3ad9-4bfb-88d1-323788725c6a" name="Default Changelist" comment="" />
+    <list default="true" id="f350e9b9-3ad9-4bfb-88d1-323788725c6a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -367,7 +369,7 @@
       <workItem from="1582193309255" duration="9131000" />
       <workItem from="1583115198736" duration="15344000" />
       <workItem from="1584017164606" duration="772000" />
-      <workItem from="1584180668969" duration="37138000" />
+      <workItem from="1584180668969" duration="37910000" />
     </task>
     <task id="LOCAL-00001" summary="[+]添加Springboot_PageHelper 进行分页的方法">
       <created>1582196853305</created>
@@ -397,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584942812825</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[+]添加遗漏的文件">
+      <created>1584942941425</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584942941425</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +417,8 @@
     <MESSAGE value="[+]添加Springboot_Jdd_Log 进行日志打印并输出到redis的项目" />
     <MESSAGE value="[+]添加自定义配置文件" />
     <MESSAGE value="[+]添加Quartz项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="[+]添加Quartz项目" />
+    <MESSAGE value="[+]添加遗漏的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+]添加遗漏的文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="177" key="#Project_Structure" timestamp="1583147087411">
@@ -423,10 +433,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584181745410" />
-    <state x="249" y="112" key="CommitChangelistDialog2" timestamp="1584942875522">
+    <state x="249" y="112" key="CommitChangelistDialog2" timestamp="1584942934155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="249" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584942875522" />
+    <state x="249" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584942934155" />
     <state x="2169" y="116" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584182327747" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584443115380">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -492,10 +502,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2381" y="171" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584182123910" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1584942819477">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1584942943148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584942819477" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584942943148" />
     <state x="2472" y="262" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584182332459" />
     <state x="636" y="251" width="786" height="608" key="find.popup" timestamp="1583146363506">
       <screen x="0" y="0" width="1920" height="1040" />
