@@ -1,0 +1,18 @@
+
+
+
+CREATE TABLE `user` (
+  `id` int(32) NOT NULL AUTO_INCREMENT,
+  `userName` varchar(32) NOT NULL,
+  `passWord` varchar(50) NOT NULL,
+  `realName` varchar(32) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+
+
+insert into `user`(userName,passWord,realName) values('afeng','111111','宋贵生');
+insert into `user`(userName,passWord,realName) values('jiasheng','222222','宋家生');
+insert into `user`(userName,passWord,realName) values('songyi','333333','宋艺');
+insert into `user`(userName,passWord,realName) values('songgang','444444','宋刚');
+insert into `user`(userName,passWord,realName) values('zijian','555555','宋智健');

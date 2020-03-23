@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.Log4jConfigure",
+      "name": "classpath:log4j.properties",
+      "type": "com.example.Log4jConfigure"
+    }
+  ],
+  "properties": []
+}

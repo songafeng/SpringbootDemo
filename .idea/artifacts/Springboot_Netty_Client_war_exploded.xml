@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Springboot_Netty_Client:war exploded">
+    <output-path>$PROJECT_DIR$/Springboot_Netty/Springboot_Netty_Client/target/Springboot_Netty_Client</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Springboot_Netty_Client</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Springboot_Netty_Client" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Springboot_Netty/Springboot_Netty_Client/target/Springboot_Netty_Client/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Springboot_Netty_Client/web/Web" />
+    </root>
+  </artifact>
+</component>

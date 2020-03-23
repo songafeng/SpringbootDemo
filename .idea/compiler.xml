@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Springboot_PageHelper" />
+        <module name="SpringCloud_Nacos_Config" />
+        <module name="Springboot_Guice2" />
+        <module name="Springboot_Logback" />
+        <module name="Springboot_SelfProperties" />
+        <module name="Springboot_Aop" />
+        <module name="Springboot_Swagger2" />
+        <module name="Springboot_Netty_Client" />
+        <module name="SpringCloud_Nacos_Discovery_Consumer_Feign" />
+        <module name="SpringCloud_Nacos_Discovery_Provider" />
+        <module name="Springboot_Jdd_Log" />
+        <module name="Springboot_MybatisExample" />
+        <module name="Springboot_Json" />
+        <module name="Springboot_Jwt" />
+        <module name="Springboot_log4j" />
+        <module name="Springboot_DynamicDataSource" />
+        <module name="Springboot_Configuration" />
+        <module name="Springboot_Log4j2" />
+        <module name="Springboot_ListenerFilterInterceptor" />
+        <module name="Springboot_Mybatis" />
+        <module name="Springboot_Netty_Server" />
+        <module name="SpringCloud_Nacos_Discovery_Consumer_Ribbon" />
+        <module name="Springboot_Redis" />
+        <module name="Springboot_Quartz" />
+        <module name="Springboot_Nacos" />
+        <module name="Springboot_Lombok" />
+        <module name="Springboot_MybatisDruid" />
+        <module name="Springboot_test" />
+        <module name="Springboot_ControllerAdvice" />
+        <module name="Springboot_Hutool" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Springboot_Aop" target="1.8" />
+      <module name="Springboot_Configuration" target="1.8" />
+      <module name="Springboot_ControllerAdvice" target="1.8" />
+      <module name="Springboot_DynamicDataSource" target="1.8" />
+      <module name="Springboot_Guice2" target="1.7" />
+      <module name="Springboot_Hutool" target="1.8" />
+      <module name="Springboot_Jdd_Log" target="1.8" />
+      <module name="Springboot_Json" target="1.8" />
+      <module name="Springboot_Jwt" target="1.8" />
+      <module name="Springboot_ListenerFilterInterceptor" target="1.8" />
+      <module name="Springboot_log4j" target="1.8" />
+      <module name="Springboot_Log4j2" target="1.8" />
+      <module name="Springboot_Logback" target="1.8" />
+      <module name="Springboot_Lombok" target="1.8" />
+      <module name="Springboot_Mybatis" target="1.8" />
+      <module name="Springboot_MybatisDruid" target="1.8" />
+      <module name="Springboot_MybatisExample" target="1.8" />
+      <module name="Springboot_Nacos" target="1.8" />
+      <module name="Springboot_Netty" target="1.8" />
+      <module name="Springboot_Netty_Client" target="1.7" />
+      <module name="Springboot_Netty_Server" target="1.8" />
+      <module name="Springboot_PageHelper" target="1.8" />
+      <module name="Springboot_Quartz" target="1.8" />
+      <module name="Springboot_Redis" target="1.8" />
+      <module name="Springboot_SelfProperties" target="1.8" />
+      <module name="Springboot_Swagger2" target="1.8" />
+      <module name="Springboot_test" target="1.8" />
+      <module name="SpringbootDemo" target="1.8" />
+      <module name="SpringCloud_Nacos_Config" target="1.8" />
+      <module name="SpringCloud_Nacos_Discovery" target="1.8" />
+      <module name="SpringCloud_Nacos_Discovery_Consumer_Feign" target="1.8" />
+      <module name="SpringCloud_Nacos_Discovery_Consumer_Ribbon" target="1.8" />
+      <module name="SpringCloud_Nacos_Discovery_Provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Springboot_Quartz" options="" />
+      <module name="Springboot_SelfProperties" options="" />
+    </option>
+  </component>
+</project>
