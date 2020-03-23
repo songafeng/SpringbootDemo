@@ -26,6 +26,15 @@ public class UserController {
         System.out.println("address"+myPersonConfig.getAddress());
         System.out.println("--------------------********************--------------------");
         System.out.println("·······················" + user);
-        return "name is "+name;
+        return new StringBuilder()
+                .append("application.properties name=")
+                .append(name)
+                .append(" ")
+                .append("person.properties address=")
+                .append(myPersonConfig.getAddress())
+                .append("user.properties user=")
+                .append(user)
+                .toString();
+
     }
 }

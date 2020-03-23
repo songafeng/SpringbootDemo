@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 
 @Component
-@PropertySource(value = {"classpath:person.properties"})
-//@ConfigurationProperties(prefix = "user")
+@PropertySource(value = {"classpath:person.properties","file:${spring.profiles.path}/person.properties"},ignoreResourceNotFound = true)
+
 public class MyPerson {
 
     @Value("${user.address}")
