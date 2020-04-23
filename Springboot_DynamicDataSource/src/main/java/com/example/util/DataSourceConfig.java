@@ -255,7 +255,7 @@ public class DataSourceConfig extends LogFactory{
     @Bean(name = "txAdviceAdvisor")
     public Advisor txAdviceAdvisor() {
         AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
-        String transactionExecution = "execution(* com.example.module..service.*.*(..))";
+        String transactionExecution = "execution(* com.example.module..com.example.service.*.*(..))";
         pointcut.setExpression(transactionExecution);
         return new DefaultPointcutAdvisor(pointcut, txAdvice());
     }

@@ -6,6 +6,6 @@ spring:
 #        register-enabled: true
         server-addr: 172.16.248.188:8848 # nancos地址
   application:
-    name: service-provider
+    name: com.example.service-provider
 server:
   port: 8070
