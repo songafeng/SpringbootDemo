@@ -1,4 +1,4 @@
-package com.example.demo.rabbitMq;
+package com.example.springboot_rabbitmq_provider.rabbitMq;
 
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
