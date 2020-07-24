@@ -23,7 +23,7 @@ public class MyJob {
         count1++;
         jobMetrics.job1Counter.increment();
 //        jobMetrics.map.put("x", Double.valueOf(count1));
-        System.out.println("task1 count:" + count1);
+//        System.out.println("task1 count:" + count1);
 //        if(count1%5==0){
 //            System.out.println("%5==0");
 //            jobMetrics.map.put("x", Double.valueOf(1));
@@ -36,6 +36,6 @@ public class MyJob {
     public void doSomethingOther() {
         count2++;
         jobMetrics.job2Counter.increment();
-        System.out.println("task2 count:" + count2);
+//        System.out.println("task2 count:" + count2);
     }
 }
